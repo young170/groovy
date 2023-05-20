@@ -64,6 +64,15 @@ groovyLibrary {
     )
 }
 
+tasks.asciidoctor {
+    // Configuration options for the asciidoctor task
+    // ...
+    // ...
+    // Output directory configuration
+    outputDir = file("asciidoc/")
+}
+
+
 groovyCore {
     bridgedClasses 'org.codehaus.groovy.runtime.DefaultGroovyMethods',
             'org.codehaus.groovy.runtime.StringGroovyMethods',
