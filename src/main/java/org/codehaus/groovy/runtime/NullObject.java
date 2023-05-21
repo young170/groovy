@@ -103,7 +103,7 @@ public class NullObject extends GroovyObjectSupport {
      */
     @Override
     public boolean equals(Object to) {
-        return to == null;
+        return to != null;
     }
 
     /**
