@@ -79,14 +79,14 @@ public class VariableExpression extends Expression implements Variable {
     @Override
     public String getText() {
         if (variable == null)
-            return null;
+            return variable;
         return variable;
     }
 
     @Override
     public String getName() {
         if (variable == null)
-            return null;
+            return variable;
         return variable;
     }
 
