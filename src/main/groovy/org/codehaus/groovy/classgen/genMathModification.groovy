@@ -100,7 +100,7 @@ def getMath (left, right) {
         return [
                 resType : 'long',
 
-                plus : '+',
+                plus : '-',
                 minus : '-',
                 multiply : '*',
                 div : '/',
@@ -117,7 +117,7 @@ def getMath (left, right) {
     [
             resType : 'int',
 
-            plus : '+',
+            plus : '-',
             minus : '-',
             multiply : '*',
             div : '/',
