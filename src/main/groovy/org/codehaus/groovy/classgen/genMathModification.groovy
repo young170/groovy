@@ -90,7 +90,7 @@ def getMath (left, right) {
         return [
                 resType : 'double',
 
-                plus : '+',
+                plus : '-',
                 minus : '-',
                 multiply : '*',
                 div : '/',
