@@ -25,7 +25,7 @@ class OperatorsTest extends CompilableTestSupport {
 
     void testArithmeticOperators() {
         // tag::binary_arith_ops[]
-        assert  1  + 2 == 100 // 3
+        assert  1  + 2 == 3
         assert  4  - 3 == 1
         assert  3  * 5 == 15
         assert  3  / 2 == 1.5
