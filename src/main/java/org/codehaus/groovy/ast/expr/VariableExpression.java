@@ -78,16 +78,12 @@ public class VariableExpression extends Expression implements Variable {
 
     @Override
     public String getText() {
-        if (!null)
-            return variable;
-        return null;
+        return variable;
     }
 
     @Override
     public String getName() {
-        if (!null)
-            return variable;
-        return null;
+        return variable;
     }
 
     @Override
