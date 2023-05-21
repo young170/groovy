@@ -20,10 +20,25 @@ import gls.CompilableTestSupport
 
 import java.util.regex.Matcher
 import java.util.regex.Pattern
+//
+import org.codehaus.groovy.runtime
+
+import groovy.lang.Closure;
+import groovy.lang.GroovyObjectSupport;
+
+import java.util.Collections;
+import java.util.Iterator;
+//
 
 class OperatorsTest extends CompilableTestSupport {
 
     void testArithmeticOperators() {
+		//
+		NullObject obj1 = new NullObject;
+		NullObject obj2 = new Nullobject;
+		
+		assert	obj1.equals(obj2); // obj2 == null
+		//
         // tag::binary_arith_ops[]
         assert  1  + 2 == 3
         assert  4  - 3 == 1
